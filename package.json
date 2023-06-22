@@ -1,0 +1,45 @@
+{
+  "name": "lensord",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "electron ./out",
+    "package": "npm run build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.7.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@huddle01/react": "^0.0.11",
+    "@lens-protocol/react-web": "^1.1.1",
+    "@lens-protocol/wagmi": "^1.1.1",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
+    "@xmtp/xmtp-js": "^9.1.7",
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "eslint": "8.42.0",
+    "eslint-config-next": "13.4.5",
+    "ethers": "^5.7.2",
+    "faunadb": "^4.8.0",
+    "framer-motion": "^4.1.17",
+    "next": "13.4.5",
+    "peerjs": "^1.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.9.0",
+    "typescript": "5.1.3",
+    "wagmi": "^0.12.7",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "electron": "^25.1.0",
+    "eslint-config-prettier": "^8.8.0"
+  }
+}
